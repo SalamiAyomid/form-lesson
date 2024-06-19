@@ -1,0 +1,60 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(assets/project.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+h1{
+    text-align: center;
+    padding-bottom: 2rem;
+    
+}
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #fb2525;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+label{
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+button{
+    background-color: #fb2525;
+    color: white;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+}
+p{
+text-align: center;
+padding-top: 2rem;
+}
+a{
+    text-decoration: none;
+    color: #ffc107;
+}
